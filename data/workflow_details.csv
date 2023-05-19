@@ -1,0 +1,18 @@
+wf,title,des,img
+wf01,Custom Animation,"Keyframe animation in DCC application, imported to Unreal",wf01.jpg
+wf02,Alembic Animation,Animation in Alembic format from DCC application to Unreal,wf02.jpg
+wf03,USD Workflow,DCC animation imported into Unreal as USD,wf03.jpg
+wf04,Animation in Sprites,DCC-animated sprites imported into Unreal,wf04.jpg
+wf05,Live Link,live-linked animation into Unreal,wf05.jpg
+wf06,Metahuan In DCC Application,Metahuman animation in a DCC and imported into unreal as USD,wf06.jpg
+wf07,Motion Capture Streaming,Direct Motion Capture streaming to Unreal Engine,wf07.jpg
+wf08,Motion Capture Retageting,Edited Motion Capture imported and retargeted to Metahuman in Unrealetahuman in Unreal,wf08.jpg
+wf09,Mixamo to Unreal,Retargeting Mixamo animation in Unreal,wf09.jpg
+wf10,Mixamo to Unreal with Mannequin,Retargeting Mixamo animation to Mannequin in Unreal and then Retargeting to Character,wf10.jpg
+wf11,Volumetric Capture,Volumetric capture to Unreal Engine,wf11.jpg
+wf12,Mixamo Converter,Mixamo animation retargeted with Mixamo converter,wf12.jpg
+wf13,Animation Blueprints,Using animation blueprints for animation in the Unreal engine,wf13.jpg
+wf14,Control Rig,Using Control rig in Unreal engine,wf14.jpg
+wf15,Unreal Engine Marketplace,Downloading animation from Unreal Engine Marketplace,wf15.jpg
+wf16,Video to Animation,Using Video to Animation AI tools,wf16.jpg
+wf17,Text to Animation,Using Text to Animation AI tools,wf17.jpg
