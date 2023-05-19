@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Workflow wiz is a tool that aids professionals in the process of discovering  Unreal Engine 3D character animation workflows for linear content production. Workflow wiz suggests optimum workflow-based experience and tools available">
+  <meta name="keywords" content="Mixamo, Unreal, Engine, Workflow, Charator, Animation, Research">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Poornima Meegammana">
+  <meta property="og:title" content="Workflow Wiz: Workflows for 3D character animation in linear content production with Unreal Engine">
+  <meta property="og:description" content="Workflow wiz is a tool that aids professionals in the process of discovering  Unreal Engine 3D character animation workflows for linear content production. Workflow wiz suggests optimum workflow-based experience and tools available">
+  <meta property="og:image" content="workflow_wiz.jpg">
+  <title>Workflow Wiz :Mixamo to Unreal workflow for 3D character animation in linear content production with Unreal Engine</title>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	
+	<style>
+	  /*  navigation bar */
+	  .navbar-custom {
+		background-color: #020A61;
+		font-size: 18px;
+	  }
+
+	  .navbar-custom .navbar-brand,
+	  .navbar-custom .navbar-nav .nav-link {
+		color: #FFFFFF;
+	  }
+
+	  .navbar-custom .nav-link:hover,
+	  .navbar-custom .nav-link:focus {
+		background-color: #121B80;
+		color: #FFFFFF;
+	  }
+
+	  /* search box */
+	  .search-box {
+		border-radius: 20px;
+		position: relative;
+	  }
+
+	  .search-box input[type="search"] {
+		padding-right: 15px;
+	  }
+
+	  .search-box .search-icon {
+		position: absolute;
+		top: 50%;
+		right: 10px;
+		transform: translateY(-50%);
+	  }
+
+	  .slogan {
+		margin-top:60px;
+	  }
+	  
+	  h1 {
+		font-size: 48px;
+		margin-bottom: 20px;
+		color: #F2A035;
+	  }
+
+	#infotext {
+		padding-top:50px;
+		font-size: 18px;
+	}
+
+	  /*  image */
+	  .image-container {
+		margin-top: 50px;
+	  }
+
+	  .image-container img {
+		max-width: 100%;
+		height: auto;
+		display: block;
+	  }
+
+	/* footer */
+	  .footer {
+		background-color: #020A61;
+		color: #FFFFFF;
+		padding: 20px;
+		text-align: center;
+		font-size: 18px;
+	  }
+
+	  .footer a {
+		color: #FFFFFF;
+	  }
+
+	  .footer a:hover,
+	  .footer a:focus {
+		color: #F2A035;
+		text-decoration: none;
+	  }
+
+	</style>
+
+	
+<style>
+  .wf_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:50px;
+	font-size:18px;
+  } 
+  
+ .top_image{
+  width:80%;
+  height:200px;
+  text-align:center;
+  margin: 40px auto;
+ }
+ 
+ .Header{
+		margin-top:40px;
+		font-size:2em;
+		font-weight:bold;
+		color:#020a61;
+		text-align:center;
+	}
+	
+.Header2{
+		font-size:1.3em;
+		font-weight:bold;
+		color:#020a61;
+	}
+	
+.keywords{
+	color:#020a61;
+}
+
+
+</style>
+
+  
+  </head>
+  <body id="top">
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand"  href="index.html"><strong>Workflow Wiz</strong></a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#findworkflow">Find Workflow</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="all_workflows.html">All Workflows</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="submit.html">Submit</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="forum.html">Forum</a>
+            </li>
+			 <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <div class="search-box me-2">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+              <i class="fas fa-search search-icon"></i>
+            </div>
+          </form>
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#"
+              id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                En
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">En</a></li>
+                <li><a class="dropdown-item" href="#">Esp</a></li>
+                <li><a class="dropdown-item" href="#">Fr</a></li>
+                <li><a class="dropdown-item" href="#">हिंदी</a></li>
+                <li><a class="dropdown-item" href="#">中国</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+<div class="top_image">
+<img src="banners/wf09_2.jpg">
+</div>
+
+<div class="Header">
+Mixamo to Unreal
+</div>
+
+
+		  
+<div class="wf_container">
+
+     <div>
+	<p class="introduction">Mixamo is a popular animation library that allows users to download and apply animation to any character. This animation can be imported into Unreal Engine and retargeted into Metahuman or any other character. In addition to Mixamo, there are many Other animation libraries, such as  Mocap Online and Reallusion Character Creator. This workflow is ideal for beginners as it always the user to produce quality animation without the need to do keyframing.</p>
+
+	<p class="keywords"><b>Keywords:</b> Mixamo, Animation Library</p>
+	</div>
+	<div><br>
+	<p class="Header2"><b>Pain Points</b></p>
+	
+	<p>
+	<ul>
+			<li>Differences in the body proportions of animation and the character could result in distorted hands that intersect with other body parts.</li>
+			<li>Animation in animation libraries tends to focus more on body animation rather than feet, toes and fingers.</li>
+			<li>Low-performance systems may experience crashes when re-targeting Mixamo animation.</li>
+			<li>Finger movements of Mixamo animation are usually not retargeted properly to the characters in Unreal Engine.</li>
+			<li>Occasionally systems may experience crashes when retargeting bones in the fingers.</li>
+			<li>Occasionally the Metahuman's head and body will move to different places. Restarting the project solves this issue.</li>
+			<li>Blending control rig animation with Mixamo animation could be challenging.</li>
+			<li>Having multiple metahumans in a scene can slow down performance</li>
+			<li>Finding the desired animation in a specific style in the library could be challenging.</li>
+		</ul>
+		</p>
+		</div>
+		<div><br>
+		<p class="Header2"><b>Best Practics</b></p>
+		<p>
+			<ul>
+				<li>Ensure the download Mixamo animation is in FBX format and has the correct frame rate.</li>
+				<li>For beginners, keeping the number of animations in their project to a minimum is recommended.</li>
+				<li>When applying animation to metahuman characters, ensure the animation size is set correctly.</li>
+				<li>Adding an additive animation layer could resolve issues of hand distortion and intersecting that occur due to differences in the body proportions of animation.</li>
+				<li>Animation can be added using keyframes when the finger animation is not retargeted to the character properly.</li>
+				<li>Restart the project in case Metahuman's head and body separate and move to different places.</li>
+			</ul>
+		</p>
+		</div>
+		<div><br>
+		<p class="Header2"><b>Additional Resources</b></p>
+		<p>
+		<ul>
+		<li>Mixamo<br>
+		<a href="https://www.mixamo.com/#/" target="_blank">https://www.mixamo.com/</a></li>
+
+		<li>
+		Using Mixamo Content<br>
+		<a href="https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/SkeletalMeshAnimation/UsingMixamoContent/" target="_blank">https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/SkeletalMeshAnimation/UsingMixamoContent/</a>
+		</li>
+		</ul>
+		</p>
+		<p><br><br></p>
+		</div>
+</div>
+
+	<footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>&copy; Workflow Wiz 2023</p>
+          </div>
+          <div class="col-md-6">
+            <p><a href="#">Home</a> - <a href="#top">Top</a</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
